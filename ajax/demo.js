@@ -1,7 +1,7 @@
 let count = 1;
 
 function getData(num) {
-  $.get(`http://swapi.co/api/people/${num}/`, function(data) {
+  $.get(`https://swapi.co/api/people/${num}/`, function(data) {
    /* $('#dataview').html('<p> Name: ' + data.name + '</p>');
      $('#dataview').append('<p>Eye Color : ' + data.eye_color + '</p>');
      $('#dataview').append('<p> Gender: ' + data.gender + '</p>');*/
